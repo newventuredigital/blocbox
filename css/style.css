@@ -70,6 +70,8 @@ p {
   }
 }
 
+
+
 /* HEADER */
 header {
   color:#FFFFFF;
@@ -136,4 +138,17 @@ header .hero img {
   background: #2ECC71;
   border:2px solid #2ECC71;
   box-shadow: 0px 2px 0px 0px #22894E;
+}
+
+/* TV */
+@media (min-width: 3000px) {
+  header .hero h1 {
+    font-size:64px;
+  }
+  header .hero p {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 100;
+  margin:10px 0 40px;
+  }
 }
